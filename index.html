@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 class="text-center text-light mt-5">Know About The Country</h1>
+                <div class="d-flex mt-5">
+                    <input class="form-control" type="text" placeholder="Enter Country Name" id="country">
+                    <input type="button" class="btn btn-success ms-3" value="Search" onclick="search()">
+                </div>
+
+                <!-- card -->
+
+                <div class="mt-5 d-flex justify-content-center align-items-center" id="countryView">
+
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
